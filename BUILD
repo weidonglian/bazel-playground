@@ -1,4 +1,4 @@
-oad("@bazel_gazelle//:def.bzl", "gazelle")
+load("@bazel_gazelle//:def.bzl", "gazelle")
 
 # gazelle:prefix github.com/weidonglian/bazel-playground
- gazelle(name = "gazelle")
+gazelle(name = "gazelle")
